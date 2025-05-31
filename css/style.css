@@ -20,7 +20,7 @@ header {
     width: 100%;
     height: 12vh;
     z-index: 1000;
-
+    backdrop-filter: blur(6px);
 }
 
 #logo {
@@ -60,12 +60,12 @@ a:hover {
 }
 
 .hero-conteiner h2 {
-  font-size: 48px;
+  font-size: 4.6rem;
   color: #ffffff;
 }
 
 .hero-conteiner p {
-  font-size: 18px;
+  font-size: 1.4rem;
   margin: 15px 0;
 }
 
@@ -180,4 +180,30 @@ a:hover {
 footer {
     text-align: center;
     color: #6e6e6ecc;
+}
+
+.wpp,
+.instagram,
+.gmail {
+    padding: 4px;
+    margin: 10px;
+    width: 46px;
+    transition: all 0.5s ease;
+    border-radius: 16px;
+    cursor: pointer;
+}
+
+.wpp:hover {
+    background-color: #25D3661a;
+    box-shadow: 0 0 8px #25D366;
+}
+
+.instagram:hover {
+    background-color: #E1306C1a;
+    box-shadow: 0 0 8px #E1306C;
+}
+
+.gmail:hover {
+    background-color: #D930251a;
+    box-shadow: 0 0 8px #D93025;
 }
