@@ -252,5 +252,6 @@ footer {
         margin: 50px auto 100px auto;
         padding: 20px;
         box-shadow: none;
+        text-align: center;
     }
 }
