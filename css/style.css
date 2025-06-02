@@ -239,6 +239,16 @@ footer {
         width: 100%;
     }
 
+    .overlay {
+        opacity: 1;
+        background: #00000099;
+    }
+
+    .info {
+    margin-top: 20px;
+    font-size: 1rem;
+    }
+
     #itens {
         width: 100%;
         grid-template-columns: 1fr;
